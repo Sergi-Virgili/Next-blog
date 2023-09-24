@@ -1,9 +1,3 @@
-
-
 export default function Home() {
-  return (
-    <man>
-      Hola
-    </man>
-  )
+  return <main></main>;
 }
