@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgb(57, 57, 57);
+    color: azure;
+    padding: 20px 0;
+    box-shadow: 5px 0 10px rgba(94, 94, 94, 0.407);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: azure;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

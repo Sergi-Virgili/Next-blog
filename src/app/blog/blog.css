@@ -1,0 +1,7 @@
+.blog_post-list {
+    padding-top: 2rem; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, auto));
+    grid-gap: 1rem;
+    justify-content: center;
+}

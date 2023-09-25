@@ -1,0 +1,27 @@
+.post_card {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 300px;
+    padding: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(157, 157, 157, 0.2);
+}
+.post_card:hover {
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.post_card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    padding-bottom: 0.5rem;
+}
+
+.post_card-body {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+}

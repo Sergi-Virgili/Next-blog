@@ -1,0 +1,7 @@
+@import url("./reset.css");
+
+.main_container {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1200px;
+}

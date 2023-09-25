@@ -1,9 +1,23 @@
 import React from "react";
+import { PostCard } from "./components/post-card";
+import { POST_API_BASE_URL } from "@/config/endpoints.vars";
+import "./blog.css";
 
-export default function Blog() {
+async function getPosts() {
+  return fetch(`${POST_API_BASE_URL}/posts`)
+    .then((response) => response.json())
+    .then((json) => json);
+}
+
+export default async function Blog() {
+  const posts = await getPosts();
   return (
-    <main>
-      <h1>Blog</h1>
-    </main>
+    <>
+      <section className="blog_post-list">
+        {posts.map((post) => (
+          <PostCard key={post.id} post={post}></PostCard>
+        ))}
+      </section>
+    </>
   );
 }
