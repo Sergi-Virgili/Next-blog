@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="main_container">
-        <section className="logo">Logo</section>
+        <section className="logo">-3lg ;)</section>
         <section>
           <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
