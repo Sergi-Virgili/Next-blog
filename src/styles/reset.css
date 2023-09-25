@@ -57,7 +57,9 @@ body {
     border-radius: 10px;
     border: 2px solid #F5F5F5;
 }
-
+a {
+    text-decoration: none;
+}
 /* salva el espacio del scrollbar */
 /* ::-webkit-scrollbar-track {
     background-color: #F5F5F5;
