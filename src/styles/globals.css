@@ -1,7 +1,16 @@
 @import url("./reset.css");
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    /* background-color: rgb(231, 231, 231); */
+}
+
 .main_container {
     margin: 0 auto;
     width: 85%;
     max-width: 1200px;
+
 }
