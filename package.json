@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "0.1.0",
   "private": true,
+  "description": "Simple blog with to introduce Next.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
